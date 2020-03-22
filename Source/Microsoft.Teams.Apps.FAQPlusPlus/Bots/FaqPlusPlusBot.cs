@@ -196,7 +196,6 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
             {
                 var message = turnContext?.Activity;
                 this.logger.LogInformation($"from: {message.From?.Id}, conversation: {message.Conversation.Id}, replyToId: {message.ReplyToId}");
-                await this.SendTypingIndicatorAsync(turnContext).ConfigureAwait(false);
 
                 switch (message.Conversation.ConversationType.ToLower())
                 {
