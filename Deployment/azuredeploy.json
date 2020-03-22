@@ -42,7 +42,7 @@
     "appDisplayName": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "FAQ Plus V2",
+      "defaultValue": "Lucy",
       "metadata": {
         "description": "The app (and bot) display name."
       }
@@ -50,7 +50,7 @@
     "appDescription": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "A friendly FAQ bot that answers questions and connects you to experts.",
+      "defaultValue": "FAQ bot that answers Microsoft Teams questions and connects you to experts.",
       "metadata": {
         "description": "The app (and bot) description."
       }
