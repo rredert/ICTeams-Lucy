@@ -1122,7 +1122,8 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
         /// <returns>Boolean value where true represent tenant is valid while false represent tenant in not valid.</returns>
         private bool IsActivityFromExpectedTenant(ITurnContext turnContext)
         {
-            return turnContext.Activity.Conversation.TenantId == "998b982f-4903-4ad2-90af-ecddd08ff971";
+            //return turnContext.Activity.Conversation.TenantId == this.options.TenantId;
+            return true;
         }
 
         /// <summary>
